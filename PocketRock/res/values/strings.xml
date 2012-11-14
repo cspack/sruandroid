@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Pocket Rock</string>
+    <string name="homeTitle">SRU Pocket Rock</string>
+	<string name="button1text">Campus Phonebook</string>
+	<string name="button2text">Campus Map</string>
+	<string name="button3text">Safety Tips</string>
+	<string name="button4text">Emergency Dialer</string>
+	
+</resources>

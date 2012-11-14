@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+	android:weightSum="1"
+	android:padding="20dp"
+	>
+
+	<LinearLayout
+		android:id="@+id/topBannerWrapper"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0"
+		android:orientation="horizontal"
+		>
+		
+		<TextView 
+			android:id="@+id/homeText"
+			android:text="@string/homeTitle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center|top"
+			android:textSize="30dp"
+			/>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+		android:id="@+id/topBannerWrapper"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.5"
+		android:orientation="horizontal"
+		android:weightSum="1"
+	>
+
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:text="@string/button1text"
+			android:layout_weight="0.5"
+		/>
+
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:text="@string/button2text"
+			android:layout_weight="0.5"
+		/>
+		
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/bottomBannerWrapper"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.5"
+		android:orientation="horizontal"
+		android:weightSum="1"
+	>
+
+		<Button
+			android:id="@+id/button3"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:text="@string/button3text"
+			android:layout_weight="0.5"
+		/>
+
+		<Button
+			android:id="@+id/button4"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:text="@string/button4text"
+			android:layout_weight="0.5"
+		/>
+
+	</LinearLayout>
+	
+	
+</LinearLayout>

@@ -9,6 +9,8 @@
 *.class
 
 # generated files
+PocketRock/bin/
+PocketRock/gen/
 bin/
 gen/
 
